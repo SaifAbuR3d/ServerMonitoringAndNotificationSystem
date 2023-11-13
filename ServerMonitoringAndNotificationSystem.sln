@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRServer", "SignalRSer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRAlertConsumer", "SignalRAlertConsumer\SignalRAlertConsumer.csproj", "{8218288C-D0C0-40CC-8B5B-A7ADA934F0C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProcessingService", "MessageProcessingService\MessageProcessingService.csproj", "{96392890-CB3F-4F30-9404-67ED69C31D4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8218288C-D0C0-40CC-8B5B-A7ADA934F0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8218288C-D0C0-40CC-8B5B-A7ADA934F0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8218288C-D0C0-40CC-8B5B-A7ADA934F0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96392890-CB3F-4F30-9404-67ED69C31D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96392890-CB3F-4F30-9404-67ED69C31D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96392890-CB3F-4F30-9404-67ED69C31D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96392890-CB3F-4F30-9404-67ED69C31D4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
