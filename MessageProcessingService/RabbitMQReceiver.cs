@@ -1,9 +1,7 @@
-﻿using MongoDB.Driver.Core.Bindings;
-using RabbitMQ.Client;
+﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Channels;
 
 namespace MessageProcessingService;
 
